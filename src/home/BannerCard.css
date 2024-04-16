@@ -14,32 +14,32 @@
 }
 
 .banner .swiper-slide:nth-child(1n) {
-background-image: url('src/assets/Banner-books/Books1.png');
+background-image: url('/assets/Banner-books/Books1.png');
 
 }
 
 .banner .swiper-slide:nth-child(2n) {
-    background-image: url('src/assets/Banner-books/Books3.png');
+    background-image: url('/assets/Banner-books/Books3.png');
 }
 
 .banner .swiper-slide:nth-child(3n) {
-    background-image: url('src/assets/Banner-books/Books4.png');
+    background-image: url('/assets/Banner-books/Books4.png');
 
 }
 
 .banner .swiper-slide:nth-child(4n) {
-    background-image: url('src/assets/Banner-books/Books5.png');
+    background-image: url('/assets/Banner-books/Books5.png');
   
 }
 
 .banner .swiper-slide:nth-child(5n) {
-    background-image: url('src/assets/Banner-books/Books6.png');
+    background-image: url('/assets/Banner-books/Books6.png');
 }
 
 
 
 .banner .swiper-slide:nth-child(6n) {
-  background-image: url('src/assets/Banner-books/Books7.png');
+  background-image: url('/assets/Banner-books/Books7.png');
 }
 
 
