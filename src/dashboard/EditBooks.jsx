@@ -50,7 +50,7 @@ const EditBooks = () => {
       bookTitle,authorName,imageUrl,category,bookDescription,bookPdfUrl
     }
 
-   fetch(`http://localhost:5000/book/${id}` ,{
+   fetch(`https://book-store-backend-kwf7.onrender.com/book/${id}` ,{
     method:"PATCH",
     headers:{
       "Content-Type": "application/json"
