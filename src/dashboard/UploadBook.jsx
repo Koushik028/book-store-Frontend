@@ -48,7 +48,7 @@ const UploadBook = () => {
 
     //send data to db
     
-    fetch("https://book-store-backend-kwf7.onrender.com/admin/dashboard/upload-book", {
+    fetch("https://book-store-backend-kwf7.onrender.com/upload-book", {
       method: "POST",
       headers: {
         "Content-Type" : "application/json",
