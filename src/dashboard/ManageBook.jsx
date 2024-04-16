@@ -158,14 +158,14 @@ const ManageBook = () => {
   const [allBooks, setAllBooks] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/all-books")
+    fetch("https://book-store-backend-kwf7.onrender.com/all-books")
       .then(res => res.json())
       .then(data => setAllBooks(data))
       .catch(error => console.error("Error fetching books:", error));
   }, []);
 
   const handleDelete = (id) => {
-    fetch(`http://localhost:5000/book/${id}`, {
+    fetch(`https://book-store-backend-kwf7.onrender.com/book/${id}`, {
       method: "DELETE",
     })
     .then(res => res.json())
