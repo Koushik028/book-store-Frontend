@@ -75,6 +75,10 @@ const Login = () => {
                                     <input id="password" name="password" type="password" minLength="6" className="peer h-10 w-full border-b-2 border-gray-300 text-gray-900 focus:outline-none" placeholder="Password" />
                                     {error ? <p className='mt-3 text-red-600 text-base'>Email or Password is Incorrect</p> : ""}
                                     <p className='mt-3'>If you haven't an account, Please <Link to="/sign-up" className=" text-blue-600 underline">Sign up </Link> Here</p>
+
+                                    <p className='font-bold text-1xl w-[500px] mt-2'>Demo Credentials</p>
+                                    <p>username: monno@gmail.com</p>   <p>Password: 12345678</p>
+
                                   
                                     <button type="submit" className="bg-blue-600 text-white rounded-md px-4 py-2 mt-5 hover:bg-black">Login</button>
                                 </div>
